@@ -1,4 +1,4 @@
-import "../../styles/UI/ProductFilterStyle.css"
+import "../../../styles/UI/ProductFilterStyle.css"
 import { useState } from "react";
 
 function ProductFilter() {

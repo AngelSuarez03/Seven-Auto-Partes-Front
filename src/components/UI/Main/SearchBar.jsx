@@ -1,4 +1,4 @@
-import '../../styles/Layout/HeaderStyle.css'
+import '../../../styles/Layout/HeaderStyle.css'
 
 function SearchBar() {
     return (

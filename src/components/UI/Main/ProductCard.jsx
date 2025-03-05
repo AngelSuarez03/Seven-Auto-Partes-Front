@@ -1,5 +1,5 @@
-import "../../styles/UI/ProductCardStyle.css";
-import buje from "../../assets/buje.jpg"
+import "../../../styles/UI/ProductCardStyle.css";
+import buje from "../../../assets/buje.jpg"
 
 function ProductCard(props) {
     return (

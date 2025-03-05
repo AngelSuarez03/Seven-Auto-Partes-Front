@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Layout/BodyMainStyle.css"
-import ProductFilter from "../UI/ProductFilter";
-import ProductCard from "../UI/ProductCard";
+import ProductFilter from "../UI/Main/ProductFilter";
+import ProductCard from "../UI/Main/ProductCard";
 
 function BodyMain() {
     return (
