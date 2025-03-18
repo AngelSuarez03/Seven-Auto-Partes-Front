@@ -15,9 +15,9 @@
   .main-content {
     margin-left: 25px;
     display: grid;
-    grid-template-rows: 1fr;
-    gap: 20px;
-  }
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 50px;
+}
   
   .advertisement {
     display: flex;

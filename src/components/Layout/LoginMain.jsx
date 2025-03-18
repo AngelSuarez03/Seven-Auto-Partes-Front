@@ -26,7 +26,7 @@ function LoginMain() {
         try {
             const response = await postUser(dataForm);
             if ( response.status === 200 ) {
-                localStorage.setItem("correo", response.message)
+                localStorage.setItem("correo", response.data.message.correo)
                 navigate("/")
             }
         } catch (error) {

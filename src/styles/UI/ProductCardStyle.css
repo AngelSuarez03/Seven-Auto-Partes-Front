@@ -32,6 +32,11 @@
   .data-product-container {
     margin-bottom: 15px;
   }
+
+  .distributor-text {
+    color: var(--place-holder);
+    margin-bottom: 10px;
+  }
   
   .product-info-row {
     display: flex;
