@@ -12,7 +12,7 @@ function HeaderMain() {
     useEffect(() => {
         const storedEmail = localStorage.getItem("correo");
         if (storedEmail) {
-            setUser(storedEmail); // Si existe el correo, lo guardamos en el estado
+            setUser(storedEmail);
         }
     }, []);
 
@@ -27,7 +27,7 @@ function HeaderMain() {
         <>
             <header className="header-main">
                 <div className="header-item left">
-                    <p className="brand">Seven AutoPartes</p>
+                    <p className="brand" onClick={() => navigate("/")}>Seven AutoPartes</p>
                 </div>
                 <div className="header-item center">
                     <SearchBar />
@@ -44,7 +44,7 @@ function HeaderMain() {
                             Iniciar Sesión
                         </button>
                     )}
-                    <button className="cart-button">
+                    <button className="cart-button" onClick={() => navigate("/cart")}>
                         <img src={cart} alt="Carrito" className="icon" />
                         0
                     </button>

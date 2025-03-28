@@ -30,7 +30,7 @@ function BodyMain() {
             </div>
 
             <div className="main-content">
-                {productsData.slice(9090, 10000).map((product, index) => (
+                {productsData.slice(0, 20).map((product, index) => (
                     <ProductCard
                         key={index}
                         Id={product.Articulo}
